@@ -85,15 +85,13 @@ main(int argc, char *argv[])
 		}
 	}
 	initscr();
-    /*
 	signal(SIGINT, SIG_IGN);
 	signal(SIGSTOP, SIG_IGN);
 	signal(SIGTSTP, SIG_IGN);
-	signal(SIGHUP, SIG_IGN);
-	signal(SIGKILL, SIG_IGN);
-	signal(SIGTERM, SIG_IGN);
-	signal(SIGQUIT, SIG_IGN);
-    */
+	//signal(SIGHUP, SIG_IGN);
+	//signal(SIGKILL, SIG_IGN);
+	//signal(SIGTERM, SIG_IGN);
+	//signal(SIGQUIT, SIG_IGN);
 	noecho();
 	leaveok(stdscr, TRUE);
 	scrollok(stdscr, FALSE);
