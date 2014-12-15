@@ -75,7 +75,7 @@ main(int argc, char *argv[])
 {
 	int		x         , i;
 	int		hoge, color;
-
+        
 	srandom(time(0));
 	for (i = 1; i < argc; ++i) {
 		if (*argv[i] == '-') {
@@ -128,6 +128,8 @@ main(int argc, char *argv[])
 	}
 	mvcur(0, COLS - 1, LINES - 1, 0);
 	endwin();
+	
+	printf("hellowolrd\n");
 }
 
 
