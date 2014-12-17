@@ -102,3 +102,4 @@
 #define LCAR6  "   (O)        (O)    "
 
 #define DELLN  "                     "
+//hogehoge
